@@ -1,0 +1,65 @@
+table {
+border-color:#A89D90;
+border-width:0px;
+border-right-width:1px;
+border-spacing:0;
+width:40%;
+margin:10px;
+}
+
+
+th{
+background-color: #00B800;
+color: white;
+text-align: left;
+padding: 7px;
+border-bottom: 2px solid #3b9108;
+border-left: 1px solid #c9c8ae;
+font-weight: normal;
+font-size: 17px;
+}
+
+td{
+padding: 8px;
+border-left: 2px solid #c9c8ae;
+}
+
+ td:first-child{border:none;}
+
+tr:nth-child(2n)
+{
+    background-color: #efefef;
+}
+
+.fourthcol{
+width:90px;
+}
+
+.firstcol, .thirdcol {
+width:160px;
+}
+
+.secondcol{
+width:140px;
+}
+
+td.countryG:before{
+content: url("02.Table/img/Germany.png") ;
+position:relative;
+top:6px;
+right:4px;
+}
+
+.countryM:before{
+content: url("02.Table/img/Mexico.png") ;
+position:relative;
+top:6px;
+right:4px;
+}
+
+.countryUK:before{
+content: url("02.Table/img/UK.png") ;
+position:relative;
+top:6px;
+right:4px;
+}

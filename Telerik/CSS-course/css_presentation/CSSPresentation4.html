@@ -1,0 +1,146 @@
+<! Doctype html>
+
+<html>
+<head>
+ <title>Homework4 - Calculator</title>
+ <link href="CSSPresentation4.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="frame">
+ <div class="main">
+   <ul class="navigation">
+    <li><span class="shortcut">V</span>iew</li>
+	<li><span class="shortcut">E</span>dit</li>
+	<li><span class="shortcut">H</span>elp</li>
+   </ul>
+   <form class="resultbox">
+    <input type="text" class="result_numbers" value="8854455" />
+   </form>
+   <div class="data">
+    <table> 
+     <tr>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>0000</td>
+	</tr>
+	<tr>
+	 <td class="fadednumbers">63</td>
+	 <td></td>
+	 <td></td>
+	 <td></td>
+	 <td class="fadednumbers">47</td>
+	 <td></td>
+	 <td></td>
+	 <td class="fadednumbers">32</td>
+	</tr>
+	<tr>
+	 <td>0000</td>
+	 <td>0000</td>
+	 <td>1000</td>
+	 <td>0111</td>
+	 <td>0001</td>
+	 <td>1011</td>
+	 <td>1011</td>
+	 <td>0111</td>
+	</tr>
+	<tr>
+	 <td class="fadednumbers">31</td>
+	 <td></td>
+	 <td></td>
+	 <td></td>
+	 <td class="fadednumbers">15</td>
+	 <td></td>
+	 <td></td>
+	 <td class="fadednumbers">0</td>
+	</tr>
+   </table>
+  </div>
+  <div class="leftblock"> 
+   <div class="test">
+   <form class="radiobuttons">
+    <ul class="leftblock_part">
+	 <li><label for="hex"><input type="radio" id="hex" name="function" />Hex</label></li>
+     <li><label for="dec"><input type="radio" id="dec" name="function" checked />Dec</label></li>
+     <li><label for="oct"><input type="radio" id="oct" name="function"/>Oct</label></li>
+	 <li><label for="bin"><input type="radio" id="bin" name="function"/>Bin</label></li>
+	</ul>
+   </form>
+   <form class="radiobuttons">
+	<ul class="leftblock_part"> 
+     <li><label for="qword"><input type="radio" id="qword" name="function" checked />Qword</label></li>
+     <li><label for="dword"><input type="radio" id="dword" name="function"/>Dword</label></li>
+     <li><label for="word"><input type="radio" id="word" name="function"/>Word</label></li>
+	 <li><label for="byte"><input type="radio" id="byte" name="function"/>Byte</label></</li>
+    </ul>
+   </form>
+    </div>
+    <div class="calculator_buttons">
+     <div class="buttons_row">
+	  <input type="button" disabled class="disabled" /></td>
+      <input type="button" value="Mod" class="characters"/>
+      <input type="button" value="A" disabled class="disabled"/>
+	  <input type="button" value="MC" class="m-buttons"/>
+	  <input type="button" value="MR" class="m-buttons"/>
+      <input type="button" value="MS" class="m-buttons"/>
+      <input type="button" value="M+" class="m-buttons"/>
+	  <input type="button" value="M-" class="m-buttons"/>
+	 </div>
+	 <div class="buttons_row">
+	  <input type="button" value="(" class="characters"/>
+      <input type="button" value=")" class="characters"/>
+	  <input type="button" value="B" disabled class="disabled"/>
+	  <input type="button" value="&larr;"/ class="characters">
+	  <input type="button" value="CE" class="characters"/>
+	  <input type="button" value="C" class="characters"/>
+      <input type="button" value="&#177;" class="characters"/>
+	  <input type="button" value="&#8730;" disabled class="disabled"/>
+	</div>
+    <div class="buttons_row">
+	 <input type="button" value="RoL" class="characters"/>
+     <input type="button" value="RoR" class="characters"/>
+	 <input type="button" value="C" disabled class="disabled"/>
+	 <input type="button" value="7" class="numbers"/>
+     <input type="button" value="8" class="numbers"/>
+     <input type="button" value="9" class="numbers"/>
+	 <input type="button" value="/" class="characters"/>
+	 <input type="button" value="%" disabled class="disabled"/>
+	</div>
+	<div class="buttons_row">
+	 <input type="button" value="Or" class="characters"/>
+     <input type="button" value="Hor" class="characters"/>
+	 <input type="button" value="D" disabled class="disabled"/>
+	 <input type="button" value="4" class="numbers"/>
+	 <input type="button" value="5" class="numbers"/>
+	 <input type="button" value="6" class="numbers"/>
+	 <input type="button" value="*" class="characters"/>
+	 <input type="button" value="1/&chi;" disabled class="disabled"/>
+	</div>
+	 <input type="button" value="=" class="characters" id="equals_char" />
+	<div class="buttons_row">
+	 <input type="button" value="Lsh" class="characters"/>
+     <input type="button" value="Rsh" class="characters"/>
+	 <input type="button" value="E" disabled class="disabled"/>
+	 <input type="button" value="1" class="numbers"/>
+	 <input type="button" value="2" class="numbers"/>
+	 <input type="button" value="3" class="numbers"/>
+     <input type="button" value="-" class="characters"/>
+	</div>
+	<div class="buttons_row">
+	 <input type="button" value="Not" class="characters"/>
+     <input type="button" value="And" class="characters"/>
+	 <input type="button" value="F" disabled class="disabled"/>
+	 <input type="button" value="0" class="numbers" id="zero"/></td>
+	 <input type="button" value="." disabled class="disabled"/>
+     <input type="button" value="+" class="characters"/>
+	</div>
+   </div>
+      <div class="clear"></div>
+ </div>
+ </div>
+ </div>
+</body>

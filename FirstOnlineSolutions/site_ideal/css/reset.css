@@ -1,0 +1,23 @@
+﻿body,nav,aside,article,section,h1,h2,h3,ul,li,a,div{
+margin:0;
+padding:0;
+}
+img {
+border:none;
+outline:none;
+}
+.clearfix {
+clear:both;
+}
+ul {
+list-style-type:none;
+}
+a {
+text-decoration:none;
+}
+#wrapper {
+width:960px;
+height:100%;
+font-family:Arial,Tahoma,Verdana,sans-serif;
+font-size:14px;
+}

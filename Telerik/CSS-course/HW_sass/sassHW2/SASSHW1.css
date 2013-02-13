@@ -1,0 +1,36 @@
+body, ul, li {
+  margin: 0;
+  padding: 0; }
+
+#container {
+  width: 800px;
+  height: 500px; }
+
+ul {
+  list-style-type: none; }
+ul li {
+  display: inline-block; }
+ul li a {
+  padding: 2px; }
+
+.gallery_item {
+  display: none; }
+
+.thumbnail {
+  opacity: .5;
+  filter: alpha(opacity=5);
+  -ms-filter: "alpha(opacity=$value)";
+  -khtml-opacity: .5;
+  -moz-opacity: .5; }
+.thumbnail:hover {
+  opacity: .8;
+  filter: alpha(opacity=8);
+  -ms-filter: "alpha(opacity=$value)";
+  -khtml-opacity: .8;
+  -moz-opacity: .8; }
+
+.gallery_item:target {
+  display: inline-block; }
+.gallery_item:target .thumbnail {
+  opacity: 1;
+  cursor: auto; }

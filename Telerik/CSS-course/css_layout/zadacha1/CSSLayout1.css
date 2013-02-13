@@ -1,0 +1,43 @@
+ul li{
+list-style-type:none;
+padding:1px;
+float:left;
+clear:left;
+}
+ul li a {
+text-decoration:none;
+color:black;
+padding:1px;
+}
+
+ul li a:hover{
+text-decoration:underline;
+}
+
+ul li a {
+padding:0;
+margin:2px;
+}
+ul li > ul {
+display:none;
+position:relative;
+}
+ul li ul li a  {
+color:#969799;
+}
+ul li:hover > ul {
+display:block;
+padding-left:7px;
+}
+ul li:hover > a {
+color:black;
+}
+clearfix {
+zoom:1;
+}
+.clearfix:after ul li a{
+content:"";
+display:block;
+clear:left;
+height:0;
+}

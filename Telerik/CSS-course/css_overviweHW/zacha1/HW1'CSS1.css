@@ -1,0 +1,67 @@
+div.tablebox {
+background:#90908F;
+width:30%;
+margin:0;
+}
+
+table{
+font-family:Arial,sans-serif;
+font-size:12px;
+color:#B3B0A8;
+font-weight:normal;
+}
+
+th{
+padding:0;
+text-align:left;
+}
+
+td{
+padding-top:9px;
+}
+
+thead {
+ font-size: 15px;
+    color: #D1D1D1;
+}
+
+a {
+text-decoration:none;
+color:#FFFFBF;
+margin:0;
+padding:0;
+}
+
+.active {
+color:red;
+padding:0;
+
+}
+
+div.greencircle{
+border-radius:50%;
+width:10px;
+height:10px;
+background-color:#71b47a;
+display:inline-block;
+}
+
+.status {
+color:#FF8533;
+}
+
+.response, .laction{
+color:#ccc;
+}
+
+.labels{
+font-style:italic;
+color:#fff;
+}
+
+.labels_name {
+font-style:italic;
+color:#fff;
+position:relative;
+bottom:5px;
+}

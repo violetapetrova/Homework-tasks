@@ -1,0 +1,149 @@
+body {font-family: verdana, sans-serif;
+    font-size: 12px;}
+body,p,h1,h2 ,li{
+margin:0;
+}
+h1, h2, p { margin-bottom: 10px; }
+h1 {
+padding-top:10px;
+}
+h2 {
+padding: 3px;
+background: #808080;
+color: #fff;
+font-size: 80%;
+}
+a { color: #961917; }
+.container {
+background:#f1f1f1;
+border:2px solid gray;
+width:1015px;
+height:614px;
+}
+nav {
+float:left;
+}
+nav h1{
+font-size:0.9em;
+}
+ul {
+list-style-type:none;
+padding-left:0;
+}
+ul.menu {
+text-decoration:none;
+}
+section.main {
+float:left;
+border:1px solid gray;
+padding:5px;
+background:white;
+width:710px;
+height:550px;
+border:1.5px solid #8A8A8A;
+margin-top:2px;
+}
+article.first{
+margin-bottom:35px;
+}
+article{
+margin-bottom:15px;
+}
+header:after, footer:after, footer:before{
+content:"";
+display:inline-block;
+width:710px;
+border-bottom: 2px solid #dbdbdb;
+margin-top: 5px;
+margin-bottom:5px;
+}
+img.cssimg {
+float:left;
+padding-right:20px;
+width:100px;
+height:100px;
+}
+aside.links {
+width:158px;
+height:820px;
+text-align:center;
+float:left;
+margin-left:1px;
+}
+.boxpart{
+margin: 2px;
+padding: 2px;
+border: 1.5px solid #8A8A8A;
+background: #fff;
+}
+.boxpart h2 { margin: -2px -2px 0 -2px; }
+
+form.search {
+margin-top:0;
+margin-bottom:0;
+}
+input[type="submit"] {
+border:1px solid #406b91;
+border-radius:5px;
+}
+input[type="button"]{
+background-image:url('25styles.png');
+width:102px;
+height:32px;
+}
+input[type="text"]{
+width:95px;
+border:1px solid #d4dee7;
+margin-top:10px;
+}
+.menu a{
+text-decoration:none;
+}
+.menu a:hover{
+text-decoration:underline;
+}
+.menu li a {
+color:black;
+}
+.menu li a.bold{
+font-weight:bold;
+color:#961917;
+}
+nav.pagination button{
+border:1px solid black;
+background-color:white;
+width: 115px;
+height:22px;
+}
+nav.pagination button span{
+display:inline-block;
+color:black;
+width:110px;
+height:22px;
+font-size:12px;
+margin-top:2px;
+}
+button:first-child span:before{
+content:"";
+display:inline-block;
+width:0;
+height:0;
+border-right:5px solid black;
+border-top:5px solid transparent;
+border-bottom:5px solid transparent;
+float:left;
+margin-left:0px;
+margin-top:3px;
+}
+button:last-child span:before{
+content:"";
+display:inline-block;
+width:0;
+height:0;
+border-left:5px solid black;
+border-top:5px solid transparent;
+border-bottom:5px solid transparent;
+float:right;
+margin-right:8px;
+margin-top:3px;
+}

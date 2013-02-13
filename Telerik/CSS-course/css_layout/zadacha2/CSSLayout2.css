@@ -1,0 +1,75 @@
+.container {
+width:390px;
+height:510px;
+background:#eeeeee;
+padding:10px;
+border: 1px solid #ccc;
+border-radius:7px;
+}
+h1{
+font-family: Arial Narrow,Arial;
+font-size:1.2em;
+font-weight:normal;
+padding-bottom:5px;
+margin-top:3px;
+}
+span {
+font-weight:bold;
+}
+article.musicpages {
+width:365px;
+height:95px;
+padding:12px;
+margin:35px;
+margin-left:0;
+overflow: hidden; /* Clear float */
+border: 1px solid #c2c2c1;
+background: #fff;
+
+}
+article.musicpages p {
+font-size:0.9em;
+word-wrap:break-word;
+float:left;
+margin:0;
+width:220px;
+}
+article.musicpages img {
+margin-right:13px;
+float:left;
+border: 1px solid #c2c2c1; 
+}
+
+.musicpages: after {
+   content: ""; 
+   display:block;
+   clear:right; 
+   height: 0; 
+   }
+button.listen{
+background-image:url('button1.png');
+padding-left: 18px;
+font-size: 0.9em;
+ color: white;
+ height: 25px;
+ width:76px;
+}
+button.add {
+background-image:url('button2.png');
+padding-left:16px;
+font-size: 0.9em;
+color: white;
+height: 25px;
+width:63px;
+}
+button {
+ border-top:0.7px solid #E38382;
+ border-right:1px solid #650000;
+ border-bottom:1px solid #650000;
+ border-left: 0.5px solid #9C2829;
+
+}
+.buttons {
+margin-left:220px;
+margin-top:70px;
+ }

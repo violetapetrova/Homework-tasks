@@ -1,0 +1,21 @@
+body {
+font: normal 16px Arial;
+color:#000000;
+}
+p {
+font-size:16px;
+font-family:Consolas;
+color:#0094ff;
+margin:0;
+
+}
+p.firstline {
+margin-top:30px;
+padding-bottom:2px;
+font:bold 16px Consolas;
+
+}
+p.firstline:first-letter {
+font-family:Edwardian Script ITC;
+font-size:45px;
+}
