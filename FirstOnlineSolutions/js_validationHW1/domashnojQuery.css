@@ -1,0 +1,50 @@
+﻿body,form,input,label {
+margin:0;
+padding:0;
+
+}
+form {
+width:300px;
+height:280px;
+background-color:#ccc;
+border:1px solid gray;
+padding:5px 10px;
+text-align:right;
+position:relative;
+}
+fieldset{
+margin:0 auto;
+}
+legend{padding:0 15px; font-weight:bold;font-size:20px; text-align:center;}
+label{
+display:inline-block;
+margin-top:10px;
+margin-right:30px;
+font-size:16px;
+font-style:italic;
+
+}
+
+input[type="text"]{
+padding:5px 10px;
+color:#575754;
+margin-left:10px;
+border-radius:5px;
+width:120px;
+}
+input[type="submit"]{
+margin-top:10px;
+margin-right:30px;
+width:80px;
+height:30px;
+border-radius:10px;
+cursor:pointer;
+}
+.error {
+color:red;
+font-size:12px;
+margin-top:1px;
+float:right;
+width:120px;
+display:inline-block;
+}
